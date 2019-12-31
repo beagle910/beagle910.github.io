@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pingchuan Ma</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Exo+2|Pacifico&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <div class="top-container">
+    <!-- <img class="top-cloud" src="images/cloud.png" alt="cloud-img"> -->
+    <h1 id="home">I'm Pingchuan(Molly) Ma</h1>
+    <h2 class="head-quto">“The only way to go fast, is to go well.” </h2>
+    <h2 class="head-quto">― <em>Robert C. Martin</em></h2>
+    <!-- <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img"> -->
+    <!-- <img class="balloon sky" src="images/balloon sky.jpeg" alt="balloonsky-img"> -->
+  </div>
+
+  <!-- Nav Bar -->
+  <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-info">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+      <ul class="navbar-nav m-auto ">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutme">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <div class="middle-container" id="aboutme">
+    <div class="profile">
+      <!-- <img class="cat-img"src="./images/catface.jpeg" alt="" width='500' heigth='200'> -->
+      <h2>Hello! I am Molly!</h2>
+      <p class="intro">I am a Master's student in Computer Science at Bowie State University. I am living in Maryland.   I love coding and solving problems.
+        My dream is to become  a  great programmer and make our life easier!</p>
+        <p class="intro">I am working as a Graduate Assistant in Computer Science Department. I helped with event organizations and management, such as Cyber Day event and workshops.
+        I explored on AWS education and enable faculties and students to move their research or teaching endeavors to the cloud.</p>
+      <p class="quote">
+        "Create with the heart; build with the mind." --Criss Jami
+      </p>
+    </div>
+    <a id="resume" download href="./images/WebsiteCV.pdf" download="WebsiteCV">Download Resume</a>
+    <hr>
+    <div class="skills" id="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <h3 align="center">Web Development, OOD, AI, ML, Cyber Security, AWS, A+, etc.</h3>
+        <img class="language-img" src="./images/language.png" alt="" >
+        <p class="language-img-description"> <b>Languages:</b> Java, C++, Python, JavaScript, SQL, Swift, HTML, CSS, JSON, Shell </p>
+      </div>
+      <div class="skill-row">
+        <img class="framework-img" src="./images/framework.png" alt="" >
+        <p class="framework-img-description"> <b>Database and Framework:</b> MySQL, MongoDB, Git, React, MapReduce, Bootstrap, Express, EJS, AWS</p>
+      </div>
+    </div>
+    <hr>
+    <div class="projects" id="projects">
+      <h2>My Projects.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="" alt="" width='400' heigth='200'>
+        <h3>Federal Government U.S. Army Project</h3>
+        <p class="project-description">Assisted in developing a red team vetting tool to provide a consistent review process for untrusted commercial and open source binaries and source code.</p>
+        <ul>
+          <li>Built a network intrusion detector, a predictive model capable of distinguishing between intrusions and normal connections based on a wide variety of intrusions simulated in a military network environment.
+          </li>
+          <li>Trained deep learning models on BGP anomaly detection using Amazon ML service.
+          </li>
+          <li>Built Vulnerability State Machine with lambda functions on AWS.
+          </li>
+          <li>Built web pages to create a dashboard for anomaly analysis and visualization.
+          </li>
+        </ul>
+
+        <h3>Tiny Ecommerce Site - Full Stack Project</h3>
+        <p class="project-description">Designed and built a shopping website using frameworks and technologies, including JavaScript, Bootstrap, MongoDB, and React for frontend development.</p>
+        <ul>
+          <li>Maintained and persisted all public product data in Amazon S3 and implemented shopping cart feature which kept cart data in browser’s local storage.
+          </li>
+          <li>Implemented user authentication and third-party login/registration features by Facebook, Google and Twitter, read/write user data to PostgreSQL database.
+          </li>
+          <li>Built Vulnerability State Machine with lambda functions on AWS.
+          </li>
+          <li>Improved the client-side performance by applying asynchronous calls and lazy loading all thumbnail images.
+          </li>
+        </ul>
+    </div>
+  </div>
+    <hr>
+
+    <div class="contact-me" id="contacts">
+      <h2>Get In Touch</h2>
+      <h3>Please reach out if you think I am a good match for your position.</h3>
+      <p>Thank you for your visiting!</p>
+      <a class="btn" href="mailto:acc.mapch@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/pingchuan-ma-994a90192/">LinkedIn</a>
+    <a class="footer-link" href="mailto:acc.mapch@gmail.com">Email</a>
+    <a class="footer-link" href="https://github.com/beagle910">Github</a>
+    <p class="copyright">© 2019 Molly Ma @BSU.</p>
+  </div>
+
+
+  </body>
+</html>
