@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## “The only way to go fast, is to go well.” ― Robert C. Martin
 
 You can use the [editor on GitHub](https://github.com/beagle910/beagle910.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
